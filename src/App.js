@@ -35,7 +35,7 @@ class App extends React.Component {
                   <div>Signed In!</div>
 
                     <button onClick={() => firebase.auth().signOut()}>
-                    Sign out!
+                    Sign out!123
                     </button>
 
                     <h1>Welcome {firebase.auth().currentUser.displayName}</h1>
